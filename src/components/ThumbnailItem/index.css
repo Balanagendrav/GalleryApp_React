@@ -1,0 +1,18 @@
+/* Write your code here. */
+.thumbnail-btn {
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+.thumbnail-item {
+  margin: 0px 16px 16px 0px;
+}
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}

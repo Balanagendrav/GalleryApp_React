@@ -1,0 +1,32 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 30px 0px;
+  width: 85%;
+  max-width: 1150px;
+}
+.image {
+  border-radius: 18px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.description {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+}
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
